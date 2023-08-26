@@ -1,0 +1,92 @@
+.mentor-card {
+  border: 1px solid #ffffff;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 40px rgba(232, 26, 26, 0.1);
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 70px;
+  margin-left: 100px;
+}
+.mentor-card-one {
+  border: 1px solid #ffffff;
+  padding-top: 20px;
+  background-color: white;
+  box-shadow: 40px rgba(232, 26, 26, 0.1);
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 70px;
+  margin-left: 800px;
+}
+.mentor-image {
+  width: 250px;
+  height: 280px;
+  border-radius: 40%; 
+  margin-bottom: 10px;
+}
+
+.mentor-card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.mentor-card-one h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.mentor-card p {
+  margin: 0;
+  padding: 20px;
+  padding-left: 15px;
+  font-size: 1.5 rem;
+  color: #555;
+}
+
+.mentor-card-one p {
+  margin: 0;
+  padding: 20px;
+  padding-left: 15px;
+  font-size: 1.5 rem;
+  color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .mentor-card {
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .mentor-card-one {
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .mentor-card h2 {
+    font-size: 1.2rem;
+  }
+  .mentor-card-one h2 {
+    font-size: 1.2rem;
+  }
+
+  .mentor-card p {
+    font-size: 0.9rem;
+  }
+
+  .mentor-card-one p {
+    font-size: 0.9rem;
+  }
+
+  .mentor-image {
+    width: 180px;
+    height: 180px;
+  }
+}

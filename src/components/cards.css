@@ -1,0 +1,55 @@
+.app {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    color: white;
+    margin: 0;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .card {
+    border: 2px solid #e9e8e8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(360deg, #234eb0 5%, #9010b0 100%);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .card:hover .card-title {
+    color: white;
+  }
+  
+  .show-more-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .show-more-card:hover {
+    background-color: #ccc;
+  }
+  
